@@ -1,0 +1,38 @@
+
+/**
+ *
+ * Roboto-Regular  
+ *
+ */
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url('../ressources/fonts/Roboto/Roboto-Regular.ttf');
+    display:swap;
+}
+
+
+/**
+ *
+ * Roboto-Medium
+ *
+ */
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url('../ressources/fonts/Roboto/Roboto-Medium.ttf');
+    display: swap;
+}
+
+
+/**
+ *
+ * Lato-Regular
+ *
+ */
+
+ @font-face {
+    font-family: "Lato-Regular";
+    src: url('../ressources/fonts/Lato/Lato-Regular.ttf');
+    display: swap;
+}

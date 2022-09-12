@@ -1,0 +1,67 @@
+.contenair{
+    max-width:1200px;
+    width:100%;
+    margin:0 auto;
+}
+
+.wrapper{
+    width:100%;
+    position:relative;
+}
+
+.wrapper .wrapper-content{
+    width:100%;
+}
+
+/*=============================================
+=            Nav-Bar            =
+=============================================*/
+
+.nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+
+.nav .nav-content{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:30px 0;
+    line-height:0px;
+}
+
+.nav-content .nav-links a{
+    display:inline-block;
+    position:relative;
+    padding:10px 0;
+    margin-left:15px;
+    color:var(--color-text);
+}
+
+.nav-content .nav-links a.active,
+.nav-content .nav-links a:hover{
+    color:var(--color-base);
+}
+
+
+.nav-content .nav-links a::before{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-10px;
+    width:0%;
+    height:3px;
+    background:var(--color-base);
+    transition:width .4s ease-in-out 0s;
+    border-radius:3px;
+}
+.nav-content .nav-links a.active::before,
+.nav-content .nav-links a:hover::before{
+    width:100%;
+}
+/*=====  End of Nav-Bar  ======*/
+
