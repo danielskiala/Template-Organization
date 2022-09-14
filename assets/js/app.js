@@ -5,9 +5,15 @@ const toggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelector('.nav-links');
 const overlay = document.querySelector('.nav-overlay');
 const cancel  = document.querySelector('.cancel');
+const loader  = document.querySelector('.loader');
 
 const links = document.querySelectorAll('.nav-links a');
 const activePage = window.location.pathname;
+
+window.addEventListener('load', function(){
+    loader.classList.add('hidden');
+});
+
 const onScroll = function(e){
     const scroll = window.scrollY;
     if(scroll > 150){
