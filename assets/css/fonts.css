@@ -36,3 +36,9 @@
     src: url('../ressources/fonts/Lato/Lato-Regular.ttf');
     display: swap;
 }
+
+@font-face {
+    font-family: "Lato-Light";
+    src: url('../ressources/fonts/Lato/Lato-Light.ttf');
+    display: swap;
+}

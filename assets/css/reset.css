@@ -10,14 +10,17 @@
 :root{
   --color-text:#1a1919;
   --color-base:#a4c639;
+  --color-btn:#3B4715;
 }
 html,
 body {
   font-size: 1rem;
   line-height:1.15;
   -webkit-text-size-adjust: 100%;
-  font-family:"Roboto-Regular";
+  font-family:"Lato-Regular";
   color:var(--color-text);
+  scroll-behavior: smooth;
+  scroll-snap-type: proximity;
 }
 
 a {
