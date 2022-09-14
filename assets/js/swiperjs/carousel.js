@@ -48,7 +48,7 @@ var swiper = new Swiper(".swiper-carousel", {
       disableOnInteraction: false
     },
     centerSlide: 'true',
-    spaceBetween:15,
+    spaceBetween:0,
     slidesPerView: 3,
     fade:'true',
     grabCursor:'true',

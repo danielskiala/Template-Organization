@@ -512,10 +512,10 @@
 }
 
 .bloc-equip-flex .bloc-eq-box img {
-    width: 280px;
-    height: 280px;
+    width: 220px;
+    height: 220px;
     display: block;
-    object-fit: cover;
+    object-position:center center;
     border-radius: 50%;
     margin-bottom: 12px;
 }
