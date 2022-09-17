@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organisations</title>
+    <link rel="stylesheet" href=".././assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/admin/style.css">
+    <link rel="stylesheet" href=".././assets/ressources/fontello/css/fontello.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #chart-container1,
+    #chart-container {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        margin-top: -30px;
+    }
+
+    #chart-container1 {
+        margin-top: -60px;
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <div class="nav">
+            <div class="nav-bar-horiz">
+                <div class="nav-horiz-content">
+                    <div class="hz-left">
+                        <div class="notis-icon">
+                            <div class="box-icon" data-number="20">
+                                <span class="icon-bell"></span>
+                            </div>
+
+                            <div class="box-icon" data-number="50">
+                                <div class="icon-mail"></div>
+                            </div>
+                        </div>
+
+                        <div class="profil">
+                            <div class="profil-name">
+                                <h4>Jhon Doe</h4>
+                            </div>
+                            <div class="profil-img">
+                                <img src="../assets/ressources/image/av2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bar-verti">
+                <div class="nav-vert-content">
+                    <div class="nav-logo">
+                        <h2>Logo</h2>
+                    </div>
+
+                    <div class="nav-links">
+                        <a href="./index.html" class="link">
+                            <span class="icon-gauge"></span>
+                            <span class="link-title">Dashboard</span>
+                        </a>
+                        <a href="./admin.html" class="link">
+                            <span class="icon-laptop"></span>
+                            <span class="link-title">Administrateurs</span>
+                        </a>
+                        <a href="/" class="link">
+                            <span class="icon-users"></span>
+                            <span class="link-title">Gérer les utilisateur</span>
+                        </a>
+                        <a href="/" class="link">
+                            <span class="icon-newspaper"></span>
+                            <span class="link-title">Gérer les news</span>
+                        </a>
+                        <a href="/" class="link">
+                            <span class="icon-megaphone"></span>
+                            <span class="link-title">Publier les annonces</span>
+                        </a>
+
+                        <a href="/" class="link">
+                            <span class="icon-bell"></span>
+                            <span class="link-title">Notification</span>
+                        </a>
+
+                        <a href="/" class="link">
+                            <span class="icon-power"></span>
+                            <span class="link-title">Déconnexion</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper-content">
+            <div class="wrapper-title">
+                <h3>Dashboard</h3>
+            </div>
+
+            <div class="statis">
+                <div class="stati-grid">
+                    <div class="stati-box">
+                        <div class="stati-head">
+                            <span class="icon-users"></span>
+                            <span class="number">20k</span>
+                        </div>
+
+                        <div class="stati-body">
+                            <p>Nombre d'utilisateur</p>
+                        </div>
+                    </div>
+
+                    <div class="stati-box">
+                        <div class="stati-head">
+                            <span class="icon-laptop"></span>
+                            <span class="number">50</span>
+                        </div>
+
+                        <div class="stati-body">
+                            <p>Nombre d'administrateurs</p>
+                        </div>
+                    </div>
+
+                    <div class="stati-box">
+                        <div class="stati-head">
+                            <span class="icon-newspaper"></span>
+                            <span class="number">200k</span>
+                        </div>
+
+                        <div class="stati-body">
+                            <p>Nombre d'utilisateur</p>
+                        </div>
+                    </div>
+
+                    <div class="stati-box">
+                        <div class="stati-head">
+                            <span class="icon-bell"></span>
+                            <span class="number">200k</span>
+                        </div>
+
+                        <div class="stati-body">
+                            <p>Nombre d'utilisateur</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="stati-graphic">
+                    <div class="stati-gr-box">
+                        <div class="gr-title">
+                            <h4>Abonnés aux réseaux sociaux</h4>
+                        </div>
+
+                        <div class="gr-body">
+                            <div class="gr-sociaux">
+                                <div class="gr-social-card">
+                                    <div class="gr-soc-icon">
+                                        <img src="../assets/ressources/image/sociaux/facebook.png" alt="">
+                                    </div>
+
+                                    <div class="gr-soc-number">
+                                        <h3>24,650</h3>
+                                        <span>J'aime</span>
+                                    </div>
+                                </div>
+
+                                <div class="gr-social-card">
+                                    <div class="gr-soc-icon">
+                                        <img src="../assets/ressources/image/sociaux/twitter.png" alt="">
+                                    </div>
+
+                                    <div class="gr-soc-number">
+                                        <h3>44,550</h3>
+                                        <span>Followers</span>
+                                    </div>
+                                </div>
+
+                                <div class="gr-social-card">
+                                    <div class="gr-soc-icon">
+                                        <img src="../assets/ressources/image/sociaux/instagram.png" alt="">
+                                    </div>
+
+                                    <div class="gr-soc-number">
+                                        <h3>6,350</h3>
+                                        <span>Followers</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stati-gr-box">
+                        <div class="gr-title">
+                            <h4>Annonces publié par mois</h4>
+                        </div>
+
+                        <div class="gr-body">
+                            <canvas id="myChart" width="150px" height="120px"></canvas>
+                        </div>
+                    </div>
+                    <div class="stati-gr-box">
+                        <div class="gr-title">
+                            <h4>Annonces publié par mois</h4>
+                        </div>
+
+                        <div class="gr-body">
+                            <div id="chart-container"></div>
+                        </div>
+                    </div>
+                    <div class="stati-gr-box">
+                        <div class="gr-title">
+                            <h4>Nombres d'utilisateur connecté par jour</h4>
+                        </div>
+
+                        <div class="gr-body">
+                            <div id="chart-container1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="arrays">
+                <div class="table">
+                    <div class="table-content">
+                        <table>
+                            <thead>
+                                <th>#ID</th>
+                                <th>Nom</th>
+                                <th>Postnom</th>
+                                <th>téléphone</th>
+                                <th>Adresse E-mail</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>003</td>
+                                    <td>Jhon</td>
+                                    <td>Doe</td>
+                                    <td>+243 815788390</td>
+                                    <td>Danielskiala@mail</td>
+                                    <td class="active">
+                                        <span>Active</span>
+                                    </td>
+                                    <td>
+                                        <a href="" class="icon-trash delete"></a>
+                                        <a href="" class="icon-edit"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>003</td>
+                                    <td>Jhon</td>
+                                    <td>Doe</td>
+                                    <td>+243 815788390</td>
+                                    <td>Danielskiala@mail</td>
+                                    <td class="desactive">
+                                        <span>Desactive</span>
+                                    </td>
+                                    <td>
+                                        <a href="" class="icon-trash delete"></a>
+                                        <a href="" class="icon-edit"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>003</td>
+                                    <td>Jhon</td>
+                                    <td>Doe</td>
+                                    <td>+243 815788390</td>
+                                    <td>Danielskiala@mail</td>
+                                    <td class="active">
+                                        <span>Active</span>
+                                    </td>
+                                    <td>
+                                        <a href="" class="icon-trash delete"></a>
+                                        <a href="" class="icon-edit"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>003</td>
+                                    <td>Jhon</td>
+                                    <td>Doe</td>
+                                    <td>+243 815788390</td>
+                                    <td>Danielskiala@mail</td>
+                                    <td class="desactive">
+                                        <span>Desactive</span>
+                                    </td>
+                                    <td>
+                                        <a href="" class="icon-trash delete"></a>
+                                        <a href="" class="icon-edit"></a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>003</td>
+                                    <td>Jhon</td>
+                                    <td>Doe</td>
+                                    <td>+243 815788390</td>
+                                    <td>Danielskiala@mail</td>
+                                    <td class="active">
+                                        <span>Active</span>
+                                    </td>
+                                    <td>
+                                        <a href="" class="icon-trash delete"></a>
+                                        <a href="" class="icon-edit"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>003</td>
+                                    <td>Jhon</td>
+                                    <td>Doe</td>
+                                    <td>+243 815788390</td>
+                                    <td>Danielskiala@mail</td>
+                                    <td class="desactive">
+                                        <span>Desactive</span>
+                                    </td>
+                                    <td>
+                                        <a href="" class="icon-trash delete"></a>
+                                        <a href="" class="icon-edit"></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                 
+                <form action="" class="arrays-form">
+                    <div class="arr-form-card">
+                        <div class="arr-form-title">
+                            <h3>Ajouter</h3>
+                        </div>
+
+                        <div class="arr-form-body">
+                            <div class="group-form">
+                                <label for="nom">Nom</label>
+                                <input type="text" name="" id="nom" placeholder="Entrez votre nom">
+                            </div>
+
+                            <div class="group-form">
+                                <label for="postnom">Postnom</label>
+                                <input type="text" name="" id="postnom" placeholder="Entrez votre postnom">
+                            </div>
+
+                            <div class="group-form">
+                                <label for="tel">Téléphone</label>
+                                <input type="tel" name="" id="nom" placeholder="Entrez votre numéro de téléphone">
+                            </div>
+
+                            <div class="group-form">
+                                <label for="email">Adresse E-mail</label>
+                                <input type="email" name="" id="email" placeholder="Entrez  votre adresse E-mail">
+                            </div>
+
+                            <div class="form-btn">
+                                <button>Ajouter</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/charts/chart.min.js"></script>
+    <script src="/assets/js/charts/pie.chart.js"></script>
+    <script src="/assets/js/echart/echart.min.js"></script>
+    <script src="../assets/js/admin/admin.js"></script>
+    <script>
+        var dom = document.getElementById('chart-container');
+        var myChartBar = echarts.init(dom, null, {
+            renderer: 'canvas',
+            useDirtyRect: false
+        });
+        var app = {};
+        var option;
+        option = {
+            tooltip: {
+                trigger: 'item'
+            },
+            series: [
+                {
+                    name: 'Access From',
+                    type: 'pie',
+                    radius: '50%',
+                    data: [
+                        { value: 1048, name: 'Janvier' },
+                        { value: 735, name: 'Février' },
+                        { value: 580, name: 'Mars' },
+                        { value: 484, name: 'Avril' },
+                        { value: 300, name: 'Mais' }
+                    ],
+                    emphasis: {
+                        itemStyle: {
+                            shadowBlur: 10,
+                            shadowOffsetX: 0,
+                            shadowColor: 'rgba(0, 0, 0, 0.5)'
+                        }
+                    }
+                }
+            ]
+        };
+        if (option && typeof option === 'object') {
+            myChartBar.setOption(option);
+        }
+        window.addEventListener('resize', myChartBar.resize);
+
+        var dom1 = document.getElementById('chart-container1');
+        var myChart1 = echarts.init(dom1, null, {
+            renderer: 'canvas',
+            useDirtyRect: false
+        });
+        var app1 = {};
+
+        var option1;
+
+        option1 = {
+            tooltip: {
+                trigger: 'axis'
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            xAxis: {
+                type: 'category',
+                boundaryGap: false,
+                data: ['Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam', 'Dim']
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [
+                {
+                    name: 'Email',
+                    type: 'line',
+                    stack: 'Total',
+                    data: [120, 132, 101, 134, 90, 230, 210]
+                },
+                {
+                    name: 'Union Ads',
+                    type: 'line',
+                    stack: 'Total',
+                    data: [220, 182, 191, 234, 290, 330, 310]
+                },
+                {
+                    name: 'Video Ads',
+                    type: 'line',
+                    stack: 'Total',
+                    data: [150, 232, 201, 154, 190, 330, 410]
+                },
+                {
+                    name: 'Direct',
+                    type: 'line',
+                    stack: 'Total',
+                    data: [320, 332, 301, 334, 390, 330, 320]
+                },
+                {
+                    name: 'Search Engine',
+                    type: 'line',
+                    stack: 'Total',
+                    data: [820, 932, 901, 934, 1290, 1330, 1320]
+                }
+            ]
+        };
+
+        if (option1 && typeof option1 === 'object') {
+            myChart1.setOption(option1);
+        }
+
+        window.addEventListener('resize', myChart1.resize); 
+    </script>
+</body>
+
+</html>

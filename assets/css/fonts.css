@@ -42,3 +42,15 @@
     src: url('../ressources/fonts/Lato/Lato-Light.ttf');
     display: swap;
 }
+
+@font-face {
+    font-family: "Lato-Bold";
+    src: url('../ressources/fonts/Lato/Lato-Bold.ttf');
+    display: swap;
+}
+
+@font-face {
+    font-family: "Lato-Black";
+    src: url('../ressources/fonts/Lato/Lato-Black.ttf');
+    display: swap;
+}
